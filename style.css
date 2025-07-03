@@ -41,7 +41,7 @@ body, html {
 
 .sidebar nav ul li a {
     text-decoration: none;
-    color: #222;
+    color: #696969;
     font-size: 1.05rem;
     font-weight: 400;
     letter-spacing: 0.01em;
@@ -50,8 +50,13 @@ body, html {
     transition: color 0.2s, background 0.2s;
 }
 
-.sidebar nav ul li a.active, .sidebar nav ul li a:hover {
-    color: #002FA7;
+.sidebar nav ul li a.active {
+    color: #111;
+    font-weight: 600;
+}
+
+.sidebar nav ul li a:hover {
+    color: #333;
     background: #f7f7fa;
 }
 
@@ -119,16 +124,17 @@ footer {
 }
 
 .footer-links a {
-    color: #002FA7;
+    color: #696969;
     text-decoration: none;
-    font-size: 1.05rem;
+    font-size: 16px;
+    font-family: "Neue Haas Grotesk Display Pro 55 Roman", "Neue Haas Grotesk Display Pro 55 Roman Placeholder", sans-serif;
     margin-bottom: 4px;
     transition: color 0.2s;
 }
 
 .footer-links a:hover {
-    text-decoration: underline;
-    color: #0050d8;
+    text-decoration: none;
+    color: #333;
 }
 
 @media (max-width: 900px) {
@@ -140,4 +146,14 @@ footer {
         padding-right: 0;
         margin-bottom: 32px;
     }
+}
+
+p {
+  font-family: "Neue Haas Grotesk Display Pro 55 Roman", "Neue Haas Grotesk Display Pro 55 Roman Placeholder", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(105, 105, 105);
+  line-height: 19.2px;
+  letter-spacing: normal;
+  text-align: start;
 }
