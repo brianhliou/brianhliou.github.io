@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap');
 
 body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Inter', Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     background: #fff;
     overflow: hidden;
 }
@@ -43,7 +43,7 @@ body, html {
     text-decoration: none;
     color: #222;
     font-size: 1.05rem;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 0.01em;
     padding: 2px 0 2px 0;
     border-radius: 2px;
@@ -51,8 +51,9 @@ body, html {
 }
 
 .sidebar nav ul li a.active, .sidebar nav ul li a:hover {
-    color: #002FA7;
+    color: #B8355B;
     background: #f7f7fa;
+    text-decoration: underline;
 }
 
 .main-content {
@@ -70,6 +71,7 @@ body, html {
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
+    padding: 40px 20px;
 }
 
 .about-text {
@@ -78,15 +80,18 @@ body, html {
 }
 
 .about-text h2 {
-    font-size: 2.2rem;
-    margin-bottom: 16px;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
     color: #222;
 }
 
 .about-text p {
-    font-size: 1.15rem;
-    color: #444;
+    font-size: 1.1rem;
+    color: #333;
     margin: 0;
+    line-height: 1.6;
 }
 
 footer {
@@ -119,16 +124,17 @@ footer {
 }
 
 .footer-links a {
-    color: #002FA7;
+    color: #B8355B;
     text-decoration: none;
     font-size: 1.05rem;
     margin-bottom: 4px;
+    font-weight: 500;
     transition: color 0.2s;
 }
 
 .footer-links a:hover {
     text-decoration: underline;
-    color: #0050d8;
+    color: #911F3F;
 }
 
 @media (max-width: 900px) {
